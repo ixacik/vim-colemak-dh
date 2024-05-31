@@ -1,23 +1,35 @@
 function! Colemak()
-    nnoremap u i
-    nnoremap l u
-    " right hand nav
-    nnoremap m h
-    vnoremap m h
-    nnoremap n j
-    vnoremap n j
-    nnoremap e k
-    vnoremap e k
-    nnoremap i l
-    vnoremap i l
-    nnoremap k n
-    nnoremap K N
-    
-    " m goes to insert mode, or with shift at beginning of line
-    nnoremap h i
-    nnoremap H I
-    
-    " shift+i does nothing
-    nnoremap I <nop>
+    noremap d g
+    noremap e k
+    noremap f e
+    noremap g t
+    noremap i l
+    noremap j y
+    noremap k n
+    noremap l u
+    noremap n j
+    noremap o p
+    noremap p r
+    noremap r s
+    noremap s d
+    noremap t f
+    noremap u i
+    noremap y o
+    noremap D G
+    noremap E K
+    noremap F E
+    noremap G T
+    noremap I L
+    noremap J Y
+    noremap K N
+    noremap L U
+    noremap N J
+    noremap O P
+    noremap P R
+    noremap R S
+    noremap S D
+    noremap T F
+    noremap U I
+    noremap Y O
 endfunction
 call Colemak()
