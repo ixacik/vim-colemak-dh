@@ -8,6 +8,7 @@ function! Colemak()
     noremap k n
     noremap l u
     noremap n j
+    noremap m h
     noremap o p
     noremap p r
     noremap r s
@@ -20,6 +21,7 @@ function! Colemak()
     noremap F E
     noremap G T
     noremap I L
+    noremap M H
     noremap J Y
     noremap K N
     noremap L U
